@@ -1,1 +1,47 @@
+Adventure Works: Quarterly Performance & Creative Design
+Microsoft Power BI: Creative Design & Digital Storytelling Professional Project
 
+Project Overview
+This project focuses on the transition from technical data processing to Data Storytelling. The objective was to create a dual User Experience (UX) for Adventure Works: a granular, interactive report for the Sales Management team and a high-level executive dashboard for the Board of Directors.
+
+Key Technical Skills Applied
+Creative Design Principles: Applied color theory, typography, and layout techniques to enhance readability and user engagement.
+
+Dashboard vs. Report Strategy: Developed detailed visuals for analysts and simplified KPI snapshots for executives.
+
+Advanced Interactivity: Implemented "Tile" style slicers and synchronized filters for seamless dynamic data exploration.
+
+Accessibility: Customized the Accessible City Park theme to ensure high contrast and compliance with modern design standards.
+
+Project Workflow
+1. Visual Selection & Clarity
+Carefully selected chart types based on data attributes to ensure a clear narrative:
+
+Time-Series Analysis: Column charts to visualize quarterly sales trends over a 4-year period.
+
+Categorical Distribution: Donut charts for sales by Category and Country, optimized for low-cardinality data.
+
+Performance Benchmarking: Bar charts for Salesperson rankings and Treemaps for unit volume by category.
+
+2. Data Storytelling for Sales Management
+The report was designed to empower managers with drill-down capabilities:
+
+Interactive Exploration: Year and Quarter slicers allow managers to identify specific regional trends and seasonal peaks.
+
+Consistent Branding: Integrated the Adventure Works logo and organized elements logically, placing the most critical information at the top of the canvas.
+
+3. Executive Dashboard (Power BI Service)
+Curated and published high-impact visuals to the Power BI Service:
+
+KPI Snapshots: Pinned essential metrics (Profit, Revenue, Profit Margin) using the "Card (New)" visual for maximum clarity.
+
+Mobile Optimization: Configured the Mobile Layout in Power BI Service, ensuring executives can access critical insights on the go.
+
+Key Insights Delivered
+Sales Concentration: Identified that the "Bikes" category accounts for over 80% of total revenue.
+
+Regional Distribution: Provided an immediate view of global performance across 6 countries (led by the United States and Australia).
+
+Top Performers: Real-time ranking of the sales force (led by Tsvi Reiter) to support incentive and bonus decision-making.
+
+Note: This project is part of the Microsoft Professional Certificate and demonstrates the ability to transform raw data into a persuasive visual narrative, adhering to UI/UX best practices.
