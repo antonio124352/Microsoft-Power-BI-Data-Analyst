@@ -1,1 +1,45 @@
+Adventure Works: Operational AI & Logistics Report
+Data Analysis and Visualization with Power BI
 
+Project Overview
+This project was developed to address an urgent request from the Adventure Works executive team. The primary goal was to consolidate fragmented sales, customer, and inventory data into a single interactive report, enabling leadership to forecast trends and interact with data using natural language.
+
+Key Technical Skills Applied
+Self-Service BI (Q&A): Implemented AI-driven natural language processing to allow stakeholders to query data directly.
+
+Advanced Analytics & Forecasting: Applied statistical models to predict future sales trends with a 99% confidence interval.
+
+Operational Reporting: Monitored the delivery pipeline by visualizing real-time order statuses (Shipped, Processing, Cancelled).
+
+UX/UI Optimization: Focused on executive readability using a unified theme (#2D386D), custom tooltips, and accessibility features.
+
+Project Workflow
+1. Core Visualizations & Logistics
+Delivery Pipeline Table: A detailed view crossing Product IDs, names, and order statuses, allowing management to track products through the logistics flow.
+
+Product Category Performance: A column chart sorted by revenue, identifying that Kids Bikes require a strategic revisit due to low sales volume ($500).
+
+2. Time Intelligence & Predictive Analysis
+Sales Trends & Peak Analysis: A line chart designed to identify seasonal revenue fluctuations and historical peaks.
+
+Forecasting: Configured monthly seasonality (12 months) to anticipate sales drops, such as the one identified for March 27th, 2023.
+
+3. AI-Driven Insights (Q&A)
+Integrated a conversational interface to provide instant insights without manual filtering:
+
+Top Performing Categories: Identified that BMX Bikes have the highest average order quantity.
+
+Geographical Insights: Discovered that Long Beach represents the lowest average order total ($1,200).
+
+Logistics Specs: Quick queries regarding product weight (e.g., Downhill subcategory having the highest weight at 151oz).
+
+Key Performance Indicators (KPIs)
+The report highlights three critical metrics for global expansion:
+
+Total Revenue: Tracked via KPIs to monitor sales goal attainment.
+
+Customer Reach: Unique customer count to measure brand loyalty and expansion.
+
+Geographic Footprint: Total city count to track the brand’s global presence.
+
+Note: This project demonstrates the ability to transform disjointed raw data into a compelling business narrative, empowering decision-makers with AI-assisted tools.
