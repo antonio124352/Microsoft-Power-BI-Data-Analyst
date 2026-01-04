@@ -1,1 +1,56 @@
+Microsoft Power BI Capstone Project: Tailwind Traders
+Microsoft Power BI Data Analyst Professional Certificate
 
+Project Overview
+This Capstone project simulates a real-world business scenario for a global company, Tailwind Traders. The goal was to transform raw sales and inventory data from multiple sources (Excel and Python) into a comprehensive Business Intelligence ecosystem focused on global profit metrics and performance analysis.
+
+Key Technical Skills Applied
+Data Preparation (Excel & Power Query): Data cleaning, normalization, and creation of net revenue calculations.
+
+Complex Data Modeling: Implemented a Snowflake Schema with 1:1 and 1:N bi-directional relationships.
+
+DAX Engineering: Developed advanced calculated measures for Time Intelligence and dynamic currency conversion to USD.
+
+Storytelling & Visualization: Designed Executive Dashboards and reports optimized for both Desktop and Mobile View.
+
+Project Workflow
+1. Data Cleaning & Transformation (ETL)
+Excel: Manual preparation of Gross Revenue, Tax, and Net Revenue columns using business formulas.
+
+Power Query: Data type optimization, filtering of refunds (ReturnStatus), and column quality analysis to ensure 100% data integrity.
+
+2. The Data Model (Snowflake Schema)
+The model was architected to support complex global financial analysis:
+
+Calendar Table: Created via DAX (CALENDAR) to enable temporal analysis (Yearly/Quarterly).
+
+Currency Conversion: Engineered a calculated table Sales in USD to consolidate global metrics into a single base currency.
+
+Relationships: Configured bi-directional cross-filtering between Sales, Countries, Purchases, and Exchange Data to ensure seamless data flow.
+
+3. DAX Measures (Business Logic)
+Developed mission-critical metrics for executive decision-making:
+
+Yearly Profit Margin: Built using DIVIDE and SUM for accurate ratio reporting.
+
+Time Intelligence: Utilized TOTALYTD and DATESQTD for Year-to-Date and Quarterly profit tracking.
+
+Statistical Stability: Applied the MEDIAN function to assess sales performance stability and identify outliers.
+
+4. Visual Reports & Executive Dashboard
+The project features three main reporting layers:
+
+Sales Overview: Analysis of loyalty points by country, quantity sold by product, and median sales trends.
+
+Profit Overview: Detailed breakdown of profit margins, YTD profit, and Net Revenue by product.
+
+Executive Dashboard: A high-level curated view of KPIs, specifically designed for Mobile Layout to ensure stakeholders can access insights on the go.
+
+Optimization & Performance
+Performance Analyzer: Validated all report visuals to ensure DAX query times remain below 200ms.
+
+Data Integrity: Verified 100% column quality for key fields like OrderID and Warranty.
+
+Proactive Monitoring: Configured data alerts and subscriptions to empower stakeholders with timely insights.
+
+Note: This project is part of the Microsoft Professional Certificate and demonstrates full proficiency in the end-to-end Power BI Data Analyst workflow.
